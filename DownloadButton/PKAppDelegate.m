@@ -26,7 +26,8 @@
     
 - (void) loginFacebook{
     
-    NSLog(@"login facebook");
+    //NSLog(@"login facebook");
+    NSLog(@"login twitter");
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
