@@ -17,7 +17,16 @@
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     [[UIApplication sharedApplication] setStatusBarHidden:YES];
     [self.window makeKeyAndVisible];
+    
+    
+    [self loginFacebook];
     return YES;
+}
+    
+    
+- (void) loginFacebook{
+    
+    NSLog(@"login facebook");
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
